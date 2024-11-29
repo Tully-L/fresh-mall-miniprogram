@@ -1,0 +1,41 @@
+page {
+  background: #f8f8f8;
+  font-size: 28rpx;
+  color: #333;
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica,
+    Segoe UI, Arial, Roboto, 'PingFang SC', 'miui', 'Hiragino Sans GB', 'Microsoft Yahei',
+    sans-serif;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+}
+
+.tab-bar-item {
+  position: relative;
+  
+  &.active {
+    .icon {
+      transform: scale(1.1);
+      filter: brightness(0.8) sepia(1) saturate(5) hue-rotate(100deg);
+    }
+    
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 10rpx;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 40rpx;
+      height: 4rpx;
+      background: #4CAF50;
+      border-radius: 2rpx;
+    }
+  }
+}
