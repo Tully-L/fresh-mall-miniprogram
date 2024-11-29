@@ -1,0 +1,15 @@
+echo '{
+  "description": "项目配置文件",
+  "packOptions": {
+    "ignore": []
+  },
+  "miniprogramRoot": "miniprogram/",
+  "compileType": "miniprogram",
+  "projectname": "fresh-mall",
+  "setting": {
+    "useCompilerPlugins": [
+      "typescript",
+      "less"
+    ]
+  }
+}' > project.config.json

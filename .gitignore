@@ -1,0 +1,19 @@
+<<<<<<< HEAD
+# 开发工具
+.DS_Store
+node_modules/
+miniprogram_npm/
+.idea
+.vscode
+
+# 小程序特定文件
+project.private.config.json
+
+# 编译输出
+dist/
+
+# 日志文件
+*.log
+=======
+#开发工具
+>>>>>>> 4478911 (Initial commit:初始化项目结构)
