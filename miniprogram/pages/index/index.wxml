@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <view class="page">
   <!-- 搜索栏 -->
   <view class="search-section">
@@ -42,4 +43,50 @@
       </view>
     </view>
   </view>
+=======
+<view class="page">
+  <!-- 搜索栏 -->
+  <view class="search-section">
+    <view class="search-bar">
+      <icon type="search" size="16"></icon>
+      <input type="text" placeholder="搜索商品" placeholder-class="placeholder" bindinput="onSearchInput" />
+    </view>
+  </view>
+
+  <!-- 轮播图 -->
+  <view class="banner-section">
+    <swiper class="banner" indicator-dots autoplay circular>
+      <swiper-item wx:for="{{banners}}" wx:key="id">
+        <image src="{{item.imageUrl}}" mode="aspectFill"></image>
+      </swiper-item>
+    </swiper>
+  </view>
+
+  <!-- 分类导航 -->
+  <view class="category-section">
+    <view class="category-nav">
+      <view class="nav-item" wx:for="{{categories}}" wx:key="id">
+        <image src="{{item.icon}}" mode="aspectFit"></image>
+        <text>{{item.name}}</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 商品列表 -->
+  <view class="goods-section">
+    <view class="section-header">
+      <text class="title">今日特惠</text>
+      <text class="more">查看更多 ></text>
+    </view>
+    <view class="goods-grid">
+      <view class="goods-item" wx:for="{{goodsList}}" wx:key="id">
+        <image src="{{item.imageUrl}}" mode="aspectFill"></image>
+        <view class="goods-info">
+          <text class="goods-name">{{item.name}}</text>
+          <text class="goods-price">¥{{item.price}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+>>>>>>> 30252565cb8ed3b276ff006e4bc3e9781cd83b84
 </view>

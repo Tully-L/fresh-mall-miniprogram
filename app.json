@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "pages": [
     "miniprogram/pages/index/index",
@@ -42,4 +43,50 @@
       }
     ]
   }
+=======
+{
+  "pages": [
+    "miniprogram/pages/index/index",
+    "miniprogram/pages/category/index",
+    "miniprogram/pages/cart/index",
+    "miniprogram/pages/mine/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#4CAF50",
+    "navigationBarTitleText": "生鲜优选",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#4CAF50",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "miniprogram/pages/index/index",
+        "text": "首页",
+        "iconPath": "miniprogram/assets/icons/home.png",
+        "selectedIconPath": "miniprogram/assets/icons/home-active.png"
+      },
+      {
+        "pagePath": "miniprogram/pages/category/index",
+        "text": "分类",
+        "iconPath": "miniprogram/assets/icons/category.png",
+        "selectedIconPath": "miniprogram/assets/icons/category-active.png"
+      },
+      {
+        "pagePath": "miniprogram/pages/cart/index",
+        "text": "购物车",
+        "iconPath": "miniprogram/assets/icons/cart.png",
+        "selectedIconPath": "miniprogram/assets/icons/cart-active.png"
+      },
+      {
+        "pagePath": "miniprogram/pages/mine/index",
+        "text": "我的",
+        "iconPath": "miniprogram/assets/icons/user.png",
+        "selectedIconPath": "miniprogram/assets/icons/user-active.png"
+      }
+    ]
+  }
+>>>>>>> 30252565cb8ed3b276ff006e4bc3e9781cd83b84
 }
