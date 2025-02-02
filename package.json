@@ -10,10 +10,6 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
-<<<<<<< HEAD
     "miniprogram-api-typings": "^4.0.4"
-=======
-    "miniprogram-api-typings": "^4.0.2"
->>>>>>> 30252565cb8ed3b276ff006e4bc3e9781cd83b84
   }
 }

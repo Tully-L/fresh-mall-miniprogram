@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
   "description": "项目配置文件",
   "packOptions": {
@@ -55,20 +54,3 @@
     "tabSize": 2
   }
 }
-=======
-echo '{
-  "description": "项目配置文件",
-  "packOptions": {
-    "ignore": []
-  },
-  "miniprogramRoot": "miniprogram/",
-  "compileType": "miniprogram",
-  "projectname": "fresh-mall",
-  "setting": {
-    "useCompilerPlugins": [
-      "typescript",
-      "less"
-    ]
-  }
-}' > project.config.json
->>>>>>> 30252565cb8ed3b276ff006e4bc3e9781cd83b84
